@@ -1,0 +1,6 @@
+{"title": "Lorem Overflow",
+  "id": "lorem-overflow",
+  "description": "The Stack Overflow clone built on Rails.",
+  "link": "http://loremoverflow.herokuapp.com/",
+  "imageUrl": "images/overflow_mac.png"
+}
