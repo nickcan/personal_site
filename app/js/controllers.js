@@ -33,5 +33,9 @@ controllers.controller('ProjectsListCtrl', function($scope) {
 });
 
 controllers.controller('ProjectsDetailCtrl', function($scope) {
-  $scope.name = "Project Details";
+  $scope.project = {title: "Fit Friends",
+              description: "The challenge-based fitness app that transforms exercise from a personal task to social adventure.",
+              link: "View Site",
+              imageUrl: 'images/fitfriends_mac.png'
+            };
 });

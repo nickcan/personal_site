@@ -71,6 +71,10 @@ body {
 .font-2 {
   font-size: 2em; }
 
+.font-3 {
+  font-size: 3em;
+}
+
 .resume {
   height: 3em;
   width: 15%;
@@ -114,7 +118,7 @@ body {
 
 .projects-list {
   position: absolute;
-  bottom: 8em;
+  bottom: 5em;
   font-size: 2em;
   width: 100%;
 }
@@ -133,4 +137,39 @@ body {
 
 .projects-list li a:hover {
   color: #ff5f00;
+}
+
+.image-container {
+  position: relative;
+  z-index: 1;
+  float: right;
+  width: 60%;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-details {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 35%;
+  padding: 2%;
+  margin-top: 6%;
+  left: 5%;
+  font-size: 1.2em;
+}
+
+.p-home {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.p-description {
+  font-size: 1.2em;
+}
+
+.p-title {
+  margin: 0;
 }
