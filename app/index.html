@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="app.css">
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/app.js"></script>
   <script src="../bower_components/angular-route/angular-route.js"></script>
@@ -18,10 +19,24 @@
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
 </head>
-<body>
-  {{"Index" +  " Template"}}
-  <div ng-view></div>
+<body ng-controller="ProjectsListCtrl">
+  <div class="c-100 jumbotron t-c white neg-top">
+    <header class="c-100 header">
+      <ul class="list right">
+        <li>linkedIn</li>
+        <li>Github</li>
+        <li>Email</li>
+      </ul>
+    </header>
 
+    <div ng-view></div>
+
+    <ul class="projects-list">
+      <li ng-repeat="project in projects">
+        <a href="#/projects/{{project.name}}">{{project.name}}</a>
+      </li>
+    </ul>
+  </div>
 
 </body>
 </html>

@@ -1,0 +1,136 @@
+body {
+  background: #e4e8f0;
+  font-family: "Helvetica";
+  padding: 0;
+  margin: 0;
+}
+
+.c-100 {
+  width: 100%; }
+
+.t-c {
+  text-align: center; }
+
+.jumbotron {
+  position: fixed;
+  background: url("http://hdtraveling.com/image/3/12/autumn-leaves-wallpaper-38-hd-desktop-wallpaper.jpg") center center no-repeat;
+  background-size: 1920px 100%;
+  height: 55em; }
+
+.b-opaque {
+  position: absolute;
+  height: 55em;
+  background: black;
+  opacity: .7; }
+
+.header {
+  padding: 2em;
+  background: black;
+  opacity: .8; }
+
+.list {
+  font-size: 1.3em;
+  margin: -.6em 10%;
+}
+
+.list li {
+      display: inline-block; }
+
+.feat-color {
+  background: #1d529b; }
+
+.feature {
+  height: 35em; }
+
+.feature-short {
+  height: 25em; }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+.top {
+  margin-top: 12.5%; }
+
+.white {
+  color: white; }
+
+.title {
+  font-size: 4em; }
+
+.rel {
+  position: relative; }
+
+.abs {
+  position: absolute; }
+
+.name {
+  left: 35.2%; }
+
+.font-2 {
+  font-size: 2em; }
+
+.resume {
+  height: 3em;
+  width: 15%;
+  background: #1c2c4c;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.b-radius {
+  border-radius: 6px; }
+
+.m-top-p {
+  margin-top: 1%; }
+
+.san-fran {
+  background: url("http://cdn.hifipanda.com/51a39f8c771a348226.jpg") no-repeat;
+  background-size: 100%; }
+
+.inset {
+  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.88), inset 5px 5px 10px rgba(0, 0, 0, 0.88); }
+
+.t-shade {
+  text-shadow: 2px 2px 1px black; }
+
+.pad-5 {
+  box-sizing: border-box;
+  padding: 5%; }
+
+.pad-10 {
+  box-sizing: border-box;
+  padding: 5% 12.5%; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.down {
+  margin-top: 5em; }
+
+.projects-list {
+  position: absolute;
+  bottom: 8em;
+  font-size: 2em;
+  width: 100%;
+}
+
+.projects-list li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5%;
+}
+
+.projects-list li a {
+  color: white;
+  text-decoration: none;
+  transition: color .6s;
+}
+
+.projects-list li a:hover {
+  color: #ff5f00;
+}
