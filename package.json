@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
+  "name": "personal_site",
   "private": true,
   "version": "0.0.0",
-  "description": "A starter project for AngularJS",
+  "description": "Nick Cantelmi's project's site with Angular.js",
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "devDependencies": {
