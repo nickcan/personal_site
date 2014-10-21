@@ -1,11 +1,20 @@
 <div class="c-100 b-opaque"></div>
 <div class="c-100">
-  <aside class="image-container">
-    <img class="project-image" ng-src="{{project.imageUrl}}">
-  </aside>
-  <section class="project-details">
-    <h2 class="p-title font-3">{{project.title}}</h2>
-    <p class="p-description">{{project.description}}</p>
-    <a href="{{project.link}}" target="_blank"><button class="resume b-radius white m-top-p p-home">Project Home</button></a>
-  </section>
+  <ul class="projects-list">
+    <li ng-repeat="project in projects">
+      <a href="#/projects/{{project.id}}">{{project.name}}</a>
+    </li>
+  </ul>
+
+  <div class="details-container rel">
+    <aside class="image-container">
+      <img class="project-image" ng-src="{{project.imageUrl}}">
+    </aside>
+
+    <section class="project-details">
+      <h2 class="p-title font-3">{{project.title}}</h2>
+      <p class="p-description">{{project.description}}</p>
+      <a href="{{project.link}}" target="_blank"><button class="resume b-radius white m-top-p p-home">Project Home</button></a>
+    </section>
+  </div>
 </div>

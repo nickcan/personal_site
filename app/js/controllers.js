@@ -2,19 +2,15 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('ProjectsListCtrl', function($scope) {
+controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+
   $scope.projects = [
     {name: "FitFriends", id: "fitfriends"},
     {name: "SudokuRazy", id: "sudokurazy"},
     {name: "Dropify", id: "dropify"},
     {name: "Lorem Overflow", id: "lorem-overflow"}
   ];
-
-  // var getProject = function(project) {
-  //   $http.get('json_files/' + project.id + '.json' ).success(function(data) {
-
-  //   });
-  // };
 
   var animateTitle = function() {
     $('.right-curly').animate({'left': '16%'}, 1000);
@@ -28,6 +24,7 @@ controllers.controller('ProjectsListCtrl', function($scope) {
   var cycleDescription = function() {
     $('.description').text("Full-Stack Web Developer");
     $('.description, .resume, .projects-list').fadeIn(2000);
+    $('.description').addClass('rel')
   }
 
   $('.name').hide();
@@ -35,14 +32,12 @@ controllers.controller('ProjectsListCtrl', function($scope) {
   setTimeout(animateTitle, 500)
   setTimeout(fadeInName, 1200)
   setTimeout(cycleDescription, 2800)
+}]);
 
-});
+controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
 
-controllers.controller('ProjectsDetailCtrl', function($scope) {
-  $scope.project = {title: "Fit Friends",
-    id: "fitfriends",
-    description: "The challenge-based fitness app that transforms exercise from a personal task to social adventure.",
-    link: "View Site",
-    imageUrl: 'images/fitfriends_mac.png'
-  };
-});
+  $http.get('json_files/' + $routeParams.projectId + '.json' ).success(function(data) {
+    $scope.project = data;
+  });
+}]);

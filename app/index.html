@@ -20,7 +20,7 @@
   <script src="components/version/interpolate-filter.js"></script>
 </head>
 <body ng-controller="ProjectsListCtrl">
-  <div class="c-100 jumbotron t-c white blur"></div>
+  <div class="c-100 jumbotron t-c white"></div>
   <div class="main c-100 t-c white">
     <header class="c-100 header">
       <ul class="list right">
@@ -32,12 +32,6 @@
 
     <div ng-view></div>
 
-    <ul class="projects-list">
-      <li ng-repeat="project in projects">
-        <a href="#/projects/{{project.id}}">{{project.name}}</a>
-      </li>
-    </ul>
   </div>
-
 </body>
 </html>

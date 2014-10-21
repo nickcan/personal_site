@@ -1,6 +1,6 @@
-{title: "Dropify",
-  id: "dropify",
-  description: "The mobile-first web app that lets you experience your city through the messages left by others.",
-  link: "View Site",
-  imageUrl: 'images/dropify_mac.png'
-};
+{"title": "Dropify",
+  "id": "dropify",
+  "description": "The mobile-first web app that lets you experience your city through the messages left by others.",
+  "link": "http://dropify.herokuapp.com/",
+  "imageUrl": "images/dropify.png"
+}

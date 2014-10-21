@@ -1,6 +1,6 @@
-{title: "SudokuRazy",
-  id: "sudokurazy",
-  description: "Love Sudoku? Play it here!",
-  link: "View Site",
-  imageUrl: 'images/fitfriends_mac.png'
-};
+{"title": "SudokuRazy",
+  "id": "sudokurazy",
+  "description": "Love Sudoku? Play it here!",
+  "link": "http://shielded-harbor-9129.herokuapp.com/",
+  "imageUrl": "images/sudokurazy.png"
+}
