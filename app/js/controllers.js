@@ -4,11 +4,17 @@ var controllers = angular.module('controllers', []);
 
 controllers.controller('ProjectsListCtrl', function($scope) {
   $scope.projects = [
-    {name: "FitFriends", id: "1"},
-    {name: "SudokuRazy", id: "2"},
-    {name: "Dropify", id: "3"},
-    {name: "Lorem Overflow", id: "4"}
-  ]
+    {name: "FitFriends", id: "fitfriends"},
+    {name: "SudokuRazy", id: "sudokurazy"},
+    {name: "Dropify", id: "dropify"},
+    {name: "Lorem Overflow", id: "lorem-overflow"}
+  ];
+
+  // var getProject = function(project) {
+  //   $http.get('json_files/' + project.id + '.json' ).success(function(data) {
+
+  //   });
+  // };
 
   var animateTitle = function() {
     $('.right-curly').animate({'left': '16%'}, 1000);
@@ -34,8 +40,9 @@ controllers.controller('ProjectsListCtrl', function($scope) {
 
 controllers.controller('ProjectsDetailCtrl', function($scope) {
   $scope.project = {title: "Fit Friends",
-              description: "The challenge-based fitness app that transforms exercise from a personal task to social adventure.",
-              link: "View Site",
-              imageUrl: 'images/fitfriends_mac.png'
-            };
+    id: "fitfriends",
+    description: "The challenge-based fitness app that transforms exercise from a personal task to social adventure.",
+    link: "View Site",
+    imageUrl: 'images/fitfriends_mac.png'
+  };
 });

@@ -21,7 +21,18 @@ body {
   position: absolute;
   height: 55em;
   background: black;
-  opacity: .7; }
+  opacity: .7;
+}
+
+.blur {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.main {
+  position: fixed;
+  height: 55em;
+}
 
 .header {
   padding: 2em;
@@ -88,10 +99,6 @@ body {
 
 .m-top-p {
   margin-top: 1%; }
-
-.san-fran {
-  background: url("http://cdn.hifipanda.com/51a39f8c771a348226.jpg") no-repeat;
-  background-size: 100%; }
 
 .inset {
   box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.88), inset 5px 5px 10px rgba(0, 0, 0, 0.88); }
