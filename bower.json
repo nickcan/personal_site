@@ -1,8 +1,8 @@
 {
-  "name": "angular-phonecat",
-  "description": "A starter project for AngularJS",
+  "name": "personal_site",
+  "description": "Nick Cantelmi's personal site using Angular.js",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
+  "homepage": "https://github.com/nickcan/personal_site.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
