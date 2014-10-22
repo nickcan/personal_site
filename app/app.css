@@ -89,14 +89,6 @@ body {
   font-size: 3em;
 }
 
-.resume {
-  height: 3em;
-  width: 15%;
-  background: #1c2c4c;
-  font-size: 1.1em;
-  cursor: pointer;
-}
-
 .b-radius {
   border-radius: 6px; }
 
@@ -149,6 +141,21 @@ body {
   color: #ff5f00;
 }
 
+.resume {
+  height: 3em;
+  width: 15%;
+  margin-top: 1%;
+  background: #1c2c4c;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.header-title {
+  width: 20%;
+  text-align: left;
+  margin: -.6em 5%;
+}
+
 .image-container {
   position: relative;
   z-index: 1;
@@ -156,16 +163,19 @@ body {
   right: 5%;
   width: 50%;
   height: 30em;
-  background: url('images/macbook_cropped.png') no-repeat;
+  background: url('images/ipad_cropped.png') no-repeat;
   background-size: 100% 100%;
+  border-radius: 20px;
+  /*background: #f1f1f1;*/
 }
 
 .project-image {
   position: relative;
-  width: 89.5%;
-  left:.2%;
-  top: 8.5%;
-  height: 84%;
+  width: 85%;
+  left:1%;
+  top: 9%;
+  height: 82%;
+  border-radius: 3px;
 }
 
 .project-details {
@@ -186,6 +196,10 @@ body {
   font-size: 1.2em;
 }
 
+.text-dec-none {
+  text-decoration: none;
+}
+
 .p-title {
   margin: 0;
 }
@@ -193,4 +207,27 @@ body {
 .details-container {
   position: relative;
   margin-top: 6%;
+}
+
+.arw-container {
+  position: absolute;
+  margin-top: 6%;
+}
+
+.arrows {
+  position: relative;
+  font-size: 2em;
+  text-align: center;
+}
+
+.left-arw {
+  color: #444444;
+}
+
+.middle-arw {
+  color: #cccccc;
+}
+
+.right-arw {
+  color: #f1f1f1;
 }

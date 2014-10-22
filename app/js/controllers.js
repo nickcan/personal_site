@@ -2,9 +2,7 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams', '$http',
-  function($scope, $routeParams, $http) {
-
+controllers.controller('ProjectsListCtrl', function($scope) {
   $scope.projects = [
     {name: "FitFriends", id: "fitfriends"},
     {name: "SudokuRazy", id: "sudokurazy"},
@@ -23,16 +21,28 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams', '$http',
 
   var cycleDescription = function() {
     $('.description').text("Full-Stack Web Developer");
-    $('.description, .resume, .projects-list').fadeIn(2000);
+    $('.description, .resume, .projects-list, .arrows-link').fadeIn(2000);
     $('.description').addClass('rel')
   }
 
+  var toggleArrowTitle = function() {
+    $('.arw-container').hover(function() {
+      $('.arrow-title').fadeToggle(500)
+    })
+  }
+
+  var pulseArrows = function() {
+    $('.arrows').fadeToggle(400)
+  }
+
   $('.name').hide();
-  $('.description, .resume, .projects-list').hide();
+  $('.description, .resume, .projects-list, .arrows-link, .arrow-title').hide();
   setTimeout(animateTitle, 500)
   setTimeout(fadeInName, 1200)
   setTimeout(cycleDescription, 2800)
-}]);
+  setInterval(pulseArrows, 3000)
+  toggleArrowTitle();
+});
 
 controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
