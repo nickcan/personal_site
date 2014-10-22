@@ -2,7 +2,9 @@
 
 var controllers = angular.module('controllers', []);
 
-controllers.controller('ProjectsListCtrl', function($scope) {
+controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
+  function($scope, $routeParams) {
+
   $scope.projects = [
     {name: "FitFriends", id: "fitfriends"},
     {name: "SudokuRazy", id: "sudokurazy"},
@@ -35,6 +37,14 @@ controllers.controller('ProjectsListCtrl', function($scope) {
     $('.arrows').fadeToggle(400)
   }
 
+  $('.arrows-link').click(function() {
+    $('.jumbotron').addClass('blur');
+  });
+
+  $('.header-title').click(function() {
+    $('.jumbotron').removeClass('blur')
+  })
+
   $('.name').hide();
   $('.description, .resume, .projects-list, .arrows-link, .arrow-title').hide();
   setTimeout(animateTitle, 500)
@@ -42,7 +52,7 @@ controllers.controller('ProjectsListCtrl', function($scope) {
   setTimeout(cycleDescription, 2800)
   setInterval(pulseArrows, 3000)
   toggleArrowTitle();
-});
+}]);
 
 controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
