@@ -36,19 +36,28 @@ body {
 }
 
 .header {
-  padding: 2em;
+  padding: 2em 0;
   background: black;
   opacity: .8;
-  /*z-index: 2;*/
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .list {
-  font-size: 1.3em;
-  margin: -.6em 10%;
+  font-size: 1.1em;
+  margin: -.4em 5%;
+  width: 50%;
+  text-align: right;
 }
 
 .list li {
-      display: inline-block; }
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
 
 .feat-color {
   background: #1d529b; }
@@ -151,7 +160,6 @@ body {
 }
 
 .header-title {
-  width: 20%;
   text-align: left;
   margin: -.6em 5%;
 }
