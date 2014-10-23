@@ -1,0 +1,103 @@
+.top {
+  margin-top: 24%;
+}
+
+.projects-list {
+  margin-top: 12%;
+  font-size: 2.8vmax;
+}
+
+.image-container {
+  height: 36vmax;
+}
+
+.project-details {
+  margin-top: 10%;
+}
+
+.header-title {
+  font-size: 2.2vmax;
+}
+
+.list {
+  font-size: 1.6vmax;
+}
+
+@media screen and (max-width: 1025px) {
+  .top {
+    margin-top: 24%;
+  }
+
+  .projects-list {
+    margin-top: 14%;
+  }
+
+  .image-container {
+    margin-top: 2%;
+    height: 40vmax;
+  }
+
+  .resume {
+    font-size: 1.7vmax;
+  }
+
+  .arrows {
+    font-size: 3vmax;
+  }
+
+  .project-details {
+    margin-top: 13%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .top {
+    margin-top: 35%;
+  }
+
+  .title {
+    /*font-size: 8vw;*/
+  }
+
+  .projects-list {
+    margin-top: 20%;
+    margin-bottom: 10%
+  }
+
+  .c-100 {
+    overflow: scroll;
+  }
+
+  .project-details {
+    float: none;
+    width: 90%;
+    margin: 10% auto;
+    left: 0;
+    font-size: 2vmax;
+  }
+
+  .image-container {
+    float: none;
+    width: 90%;
+    right: 0;
+    margin: 0 auto;
+    height: 50vmax;
+  }
+
+  .header-title {
+    visibility: hidden;
+  }
+
+  .list {
+    position: relative;
+    float: none;
+    text-align: center;
+    margin: 3% auto;
+    font-size: 3vmin;
+  }
+
+  .list li {
+    margin: 0 5%;
+    width: 20%;
+  }
+}

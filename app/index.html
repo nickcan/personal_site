@@ -9,7 +9,9 @@
   <title>My AngularJS App</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" media="(max-width: 1200px)" href="media_queries.css" />
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/controllers.js"></script>
@@ -22,11 +24,11 @@
 <body>
   <div class="c-100 jumbotron t-c white"></div>
   <div class="main c-100 t-c white">
-    <header class="c-100 header">
-      <a href="#"><h2 class="header-title left white">Nick Cantelmi</h2></a>
-      <ul class="list right">
-        <li><a class="white text-dec-none" href="https://www.linkedin.com/in/nickcantelmi">linkedIn</a></li>
-        <li><a class="white text-dec-none" href="https://github.com/nickcan">Github</a></li>
+    <header class="c-100 header clearfix:after">
+      <a href="#" class="white text-dec-none"><h2 class="header-title white">Nick Cantelmi</h2></a>
+      <ul class="list">
+        <li><a class="white text-dec-none" href="https://www.linkedin.com/in/nickcantelmi" target="_blank">linkedIn</a></li>
+        <li><a class="white text-dec-none" href="https://github.com/nickcan" target="_blank">Github</a></li>
         <li><a class="white text-dec-none" href="mailto:nickcantelmi@gmail.com">Email</a></li>
       </ul>
     </header>
