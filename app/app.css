@@ -11,21 +11,6 @@ body {
 .t-c {
   text-align: center; }
 
-.jumbotron {
-  position: fixed;
-  background: url("http://hdtraveling.com/image/3/12/autumn-leaves-wallpaper-38-hd-desktop-wallpaper.jpg") center center no-repeat;
-  background-size: 1920px 100%;
-  height: 100vh;
-}
-
-.b-opaque {
-  position: absolute;
-  top: 4em;
-  height: 100vh;
-  background: black;
-  opacity: .7;
-}
-
 .blur {
   -webkit-filter: blur(5px);
   filter: blur(5px);
@@ -36,52 +21,8 @@ body {
   height: 100vh;
 }
 
-.header {
-  padding: 3.9vmin 0;
-  background: black;
-  opacity: .8;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.header-title {
-  text-align: left;
-  margin: -1vmax 5%;
-  font-size: 1.8vmax;
-}
-
-.list {
-  font-size: 1.2vmax;
-  margin: -.5vmax 5%;
-  width: 50%;
-  text-align: right;
-}
-
-.list li {
-  display: inline-block;
-  margin-right: 10%;
-}
-
-.list li:last-child {
-  margin-right: 0;
-}
-
-.feat-color {
-  background: #1d529b; }
-
-.feature {
-  height: 35em; }
-
-.feature-short {
-  height: 25em; }
-
-.clearfix:after {
-  content: " ";
-  display: block;
-  clear: both; }
-
 .top {
-  margin-top: 12.5%; }
+  margin-top: 18%; }
 
 .white {
   color: white; }
@@ -134,11 +75,47 @@ body {
 .down {
   margin-top: 5em; }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background: #1e1e1e;
+  width: 100%;
+  z-index: 5;
+  box-sizing: border-box;
+}
+
+.header-title {
+  float: left;
+  text-align: left;
+  margin: 1em 0 1em 5%;
+  font-size: 1.8vmax;
+}
+
+.list {
+  font-size: 1.2vmax;
+  margin: 2em 5% 1em 0;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.list li {
+  display: inline-block;
+  width: 20%;
+}
+
 .projects-list {
   position: relative;
-  font-size: 2em;
+  font-size: 2.2vmax;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 10%;
+  box-sizing: border-box;
 }
 
 .projects-list li {
@@ -157,11 +134,26 @@ body {
   color: #ff5f00;
 }
 
+.jumbotron {
+  position: fixed;
+  background: url("http://hdtraveling.com/image/3/12/autumn-leaves-wallpaper-38-hd-desktop-wallpaper.jpg") center center no-repeat;
+  background-size: 1920px 100%;
+  height: 100vh;
+}
+
+.b-opaque {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  background: black;
+  opacity: .7;
+}
+
 .resume {
   padding: 1.2% 2%;
   margin-top: 1%;
   background: #1c2c4c;
-  font-size: 1.1em;
+  font-size: 1.2vmax;
   cursor: pointer;
 }
 
@@ -171,11 +163,10 @@ body {
   float: right;
   right: 5%;
   width: 50%;
-  height: 30em;
+  height: 32vmax;
   background: url('images/ipad_cropped.png') no-repeat;
   background-size: 100% 100%;
   border-radius: 20px;
-  /*background: #f1f1f1;*/
 }
 
 .project-image {
@@ -192,9 +183,9 @@ body {
   float: left;
   z-index: 1;
   width: 35%;
-  margin-top: 6%;
+  margin-top: 8%;
   left: 5%;
-  font-size: 1.2em;
+  font-size: 1.3vmax;
 }
 
 .p-home {
@@ -216,6 +207,7 @@ body {
 .details-container {
   position: relative;
   margin-top: 6%;
+  box-sizing: border-box;
 }
 
 .arw-container {
