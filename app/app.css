@@ -22,13 +22,15 @@ body {
 }
 
 .top {
-  margin-top: 18%; }
+  margin-top: 30vh; }
 
 .white {
   color: white; }
 
 .title {
-  font-size: 4.4vw; }
+  margin: 0;
+  font-size: 5vw;
+}
 
 .rel {
   position: relative; }
@@ -36,11 +38,10 @@ body {
 .abs {
   position: absolute; }
 
-.name {
-  left: 35.2%; }
-
-.font-2 {
-  font-size: 2.3vw; }
+.description {
+  font-size: 2.3vw;
+  margin: 1%;
+}
 
 .font-3 {
   font-size: 3em;
@@ -102,6 +103,7 @@ body {
   margin: 2em 5% 1em 0;
   width: 50%;
   float: right;
+  padding: 0;
   text-align: right;
 }
 
@@ -114,14 +116,14 @@ body {
   position: relative;
   font-size: 2.2vmax;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 20vh;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .projects-list li {
   display: inline-block;
-  text-align: center;
-  margin-right: 5%;
+  margin: 0 2.5%;
 }
 
 .projects-list li a {
@@ -150,8 +152,8 @@ body {
 }
 
 .resume {
-  padding: 1.2% 2%;
-  margin-top: 1%;
+  padding: 2vh 4%;
+  margin-top: 8vh;
   background: #1c2c4c;
   font-size: 1.2vmax;
   cursor: pointer;
@@ -212,12 +214,12 @@ body {
 
 .arw-container {
   position: absolute;
-  margin-top: 6%;
+  margin-top: 8vh;
 }
 
 .arrows {
   position: relative;
-  font-size: 2.2vmax;
+  font-size: 4vh;
   text-align: center;
 }
 

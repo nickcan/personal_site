@@ -1,9 +1,5 @@
-.top {
-  margin-top: 24%;
-}
-
 .projects-list {
-  margin-top: 12%;
+  margin-top: 18vh;
   font-size: 2.8vmax;
 }
 
@@ -11,8 +7,12 @@
   height: 36vmax;
 }
 
+.p-home {
+  margin-top: 3vh;
+}
+
 .project-details {
-  margin-top: 10%;
+  margin-top: 12vh;
 }
 
 .header-title {
@@ -23,15 +23,15 @@
   font-size: 1.6vmax;
 }
 
+.title {
+  font-size: 8vh;
+}
+
+.description {
+  font-size: 4vh;
+}
+
 @media screen and (max-width: 1025px) {
-  .top {
-    margin-top: 24%;
-  }
-
-  .projects-list {
-    margin-top: 14%;
-  }
-
   .image-container {
     margin-top: 2%;
     height: 40vmax;
@@ -39,6 +39,7 @@
 
   .resume {
     font-size: 1.7vmax;
+    margin-top: 3vh;
   }
 
   .arrows {
@@ -53,10 +54,6 @@
 @media screen and (max-width: 850px) {
   .top {
     margin-top: 35%;
-  }
-
-  .title {
-    /*font-size: 8vw;*/
   }
 
   .projects-list {
