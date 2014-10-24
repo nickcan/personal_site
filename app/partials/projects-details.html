@@ -8,7 +8,7 @@
 
   <div class="details-container rel">
     <aside class="image-container">
-      <img class="project-image inset" ng-src="{{project.imageUrl}}">
+      <img class="project-image inset project" ng-src="{{project.imageUrl}}" ng-class="{active:mainImageUrl!=project.imageUrl}">
     </aside>
 
     <section class="project-details">
