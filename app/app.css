@@ -185,12 +185,17 @@ body {
   float: left;
   z-index: 1;
   width: 35%;
+  height: 16vmax;
   margin-top: 8%;
   left: 5%;
   font-size: 1.3vmax;
 }
 
 .p-home {
+  position: absolute;
+  bottom: 0;
+  right: 25%;
+  left: 25%;
   width: 50%;
 }
 

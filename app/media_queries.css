@@ -13,6 +13,7 @@
 
 .project-details {
   margin-top: 12vh;
+  height: 17vmax;
 }
 
 .header-title {
@@ -71,6 +72,7 @@
     margin: 10% auto;
     left: 0;
     font-size: 2vmax;
+    height: 28vmax;
   }
 
   .image-container {
