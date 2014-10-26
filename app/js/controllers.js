@@ -16,28 +16,22 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
     $('.name').fadeIn(2000)
   }
 
-  var cycleDescription = function() {
-    $('.description').text("Full-Stack Web Developer");
-    $('.description, .resume, .projects-list, .arrows-link').fadeIn(2000);
-    $('.description').addClass('rel')
+  var moveCurliesOut = function() {
+    $('.left-curly').animate({'margin-right': '3vw'}, 1000)
+    $('.right-curly').animate({'margin-left': '3vw'}, 1000)
   }
 
-  var toggleArrowTitle = function() {
-    $('.arrow-title').hide();
-    $('.arw-container').hover(function() {
-      $('.arrow-title').fadeToggle(500)
-    })
+  var moveCurliesIn = function() {
+    $('.left-curly').animate({'margin-right': '1vw'}, 1000)
+    $('.right-curly').animate({'margin-left': '1vw'}, 1000)
   }
 
-  var pulseArrows = function() {
-    $('.arrows').fadeToggle(400)
-  }
+  setInterval(function() {
+    moveCurliesOut();
+    moveCurliesIn();
+  })
 
-
-  // setTimeout(cycleDescription, 2800)
   $('.jumbotron').removeClass('blur')
-  setInterval(pulseArrows, 3000)
-  toggleArrowTitle();
 }]);
 
 controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
