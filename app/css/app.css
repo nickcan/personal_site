@@ -66,7 +66,7 @@ body {
 
 .jumbotron {
   position: fixed;
-  background: url("http://hdtraveling.com/image/3/12/autumn-leaves-wallpaper-38-hd-desktop-wallpaper.jpg") center center no-repeat;
+  background: url("../images/autumn-leaves.jpg") center center no-repeat;
   background-size: 1920px 100%;
   height: 100vh;
 }
