@@ -159,3 +159,11 @@ body {
   color: #f1f1f1;
   text-shadow: 2px 2px 4px #1e1e1e;
 }
+
+.footer {
+  position: absolute;
+  bottom: 2vh;
+  font-size: 2.1vh;
+  width: 100%;
+  text-align: center;
+}
