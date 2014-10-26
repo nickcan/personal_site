@@ -94,7 +94,7 @@ body {
   right: 5%;
   width: 50%;
   height: 32vmax;
-  background: url('images/ipad_cropped.png') no-repeat;
+  background: url('../images/ipad_cropped.png') no-repeat;
   background-size: 100% 100%;
   border-radius: 20px;
 }
@@ -147,7 +147,7 @@ body {
 
 .arw-container {
   position: absolute;
-  margin-top: 8vh;
+  margin-top: 10vh;
 }
 
 .arrows {
