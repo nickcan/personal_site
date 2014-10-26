@@ -6,7 +6,7 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
   function($scope, $routeParams) {
 
   $scope.projects = [
-    {name: "FitFriends", id: "fitfriends"},
+    {name: "Fit Friends", id: "fitfriends"},
     {name: "SudokuRazy", id: "sudokurazy"},
     {name: "Dropify", id: "dropify"},
     {name: "Lorem Overflow", id: "lorem-overflow"}

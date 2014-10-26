@@ -12,8 +12,7 @@
 }
 
 .project-details {
-  margin-top: 12vh;
-  height: 17vmax;
+  margin-top: 8vh;
 }
 
 .header-title {
@@ -47,7 +46,7 @@
   }
 
   .project-details {
-    margin-top: 13%;
+    margin-top: 10%;
   }
 }
 
@@ -57,7 +56,7 @@
   }
 
   .projects-list {
-    margin-top: 24%;
+    margin-top: 20%;
     margin-bottom: 10%
   }
 
@@ -71,7 +70,7 @@
     margin: 10% auto;
     left: 0;
     font-size: 2vmax;
-    height: 26vmax;
+    height: 34vmax;
   }
 
   .image-container {
@@ -97,5 +96,11 @@
 
   .footer {
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-details {
+    height: 38vmax;
   }
 }
