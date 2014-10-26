@@ -12,11 +12,6 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
     {name: "Lorem Overflow", id: "lorem-overflow"}
   ];
 
-  var animateTitle = function() {
-    $('.right-curly').animate({'left': '16%'}, 1000);
-    $('.left-curly').animate({'right': '16%'}, 1000);
-  }
-
   var fadeInName = function() {
     $('.name').fadeIn(2000)
   }
@@ -28,6 +23,7 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
   }
 
   var toggleArrowTitle = function() {
+    $('.arrow-title').hide();
     $('.arw-container').hover(function() {
       $('.arrow-title').fadeToggle(500)
     })
@@ -45,11 +41,7 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
     $('.jumbotron').removeClass('blur')
   })
 
-  $('.name').hide();
-  $('.description, .resume, .projects-list, .arrows-link, .arrow-title').hide();
-  setTimeout(animateTitle, 500)
-  setTimeout(fadeInName, 1200)
-  setTimeout(cycleDescription, 2800)
+  // setTimeout(cycleDescription, 2800)
   setInterval(pulseArrows, 3000)
   toggleArrowTitle();
 }]);
