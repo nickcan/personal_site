@@ -5,81 +5,9 @@ body {
   margin: 0;
 }
 
-.c-100 {
-  width: 100%; }
-
-.t-c {
-  text-align: center; }
-
-.blur {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-}
-
-.main {
-  position: fixed;
-  height: 100vh;
-}
-
-.top {
-  margin-top: 30vh; }
-
-.white {
-  color: white; }
-
-.title {
-  margin: 0;
-  font-size: 5vw;
-}
-
-.rel {
-  position: relative; }
-
-.abs {
-  position: absolute; }
-
 .description {
   font-size: 2.3vw;
   margin: 1%;
-}
-
-.font-3 {
-  font-size: 3em;
-}
-
-.b-radius {
-  border-radius: 6px; }
-
-.m-top-p {
-  margin-top: 1%; }
-
-.inset {
-  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.88), inset 5px 5px 10px rgba(0, 0, 0, 0.88); }
-
-.t-shade {
-  text-shadow: 2px 2px 1px black; }
-
-.pad-5 {
-  box-sizing: border-box;
-  padding: 5%; }
-
-.pad-10 {
-  box-sizing: border-box;
-  padding: 5% 12.5%; }
-
-.left {
-  float: left; }
-
-.right {
-  float: right; }
-
-.down {
-  margin-top: 5em; }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .header {
@@ -166,7 +94,7 @@ body {
   right: 5%;
   width: 50%;
   height: 32vmax;
-  background: url('images/ipad_cropped.png') no-repeat;
+  background: url('../images/ipad_cropped.png') no-repeat;
   background-size: 100% 100%;
   border-radius: 20px;
 }
@@ -219,7 +147,7 @@ body {
 
 .arw-container {
   position: absolute;
-  margin-top: 8vh;
+  margin-top: 10vh;
 }
 
 .arrows {
