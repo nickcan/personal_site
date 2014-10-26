@@ -64,6 +64,10 @@ body {
   color: #ff5f00;
 }
 
+.t-shadow {
+  text-shadow: 5px 5px 10px #1e1e1e;
+}
+
 .jumbotron {
   position: fixed;
   background: url("../images/autumn-leaves.jpg") center center no-repeat;
@@ -145,25 +149,13 @@ body {
   box-sizing: border-box;
 }
 
-.arw-container {
+.p-link-container {
   position: absolute;
   margin-top: 10vh;
 }
 
-.arrows {
-  position: relative;
+.projects-link {
   font-size: 4vh;
-  text-align: center;
-}
-
-.left-arw {
-  color: #444444;
-}
-
-.middle-arw {
-  color: #cccccc;
-}
-
-.right-arw {
   color: #f1f1f1;
+  text-shadow: 2px 2px 4px #1e1e1e;
 }
