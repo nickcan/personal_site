@@ -33,21 +33,17 @@ controllers.controller('ProjectsListCtrl', ['$scope', '$routeParams',
     $('.arrows').fadeToggle(400)
   }
 
-  $('.arrows-link').click(function() {
-    $('.jumbotron').addClass('blur');
-  });
-
-  $('.header-title').click(function() {
-    $('.jumbotron').removeClass('blur')
-  })
 
   // setTimeout(cycleDescription, 2800)
+  $('.jumbotron').removeClass('blur')
   setInterval(pulseArrows, 3000)
   toggleArrowTitle();
 }]);
 
 controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
+
+  $('.jumbotron').addClass('blur');
 
   $http.get('json_files/' + $routeParams.projectId + '.json' ).success(function(data) {
     $scope.project = data;
