@@ -1,6 +1,6 @@
 {"title": "Lorem Overflow",
   "id": "lorem-overflow",
-  "description": "The Stack Overflow clone built on Rails.",
+  "description": "This is a Stack Overflow clone built with Rails. It uses a polymorphic association for votes in the database, allowing user's to vote on questions and comments. Relying heavily on ERB templates, the app embeds links dynamically for full-circle connection.",
   "link": "http://loremoverflow.herokuapp.com/",
   "imageUrl": "images/lorem_overflow.png"
 }
