@@ -2,5 +2,5 @@
   "id": "fitfriends",
   "description": "The challenge-based fitness app that transforms exercise from a personal task to social. It primarily uses Rails as an API that serves JSON to a client-side Javascript application. Each feature works as its own little widget, making a complex website completely dynamic and modular.",
   "link": "http://fit--friends.herokuapp.com/",
-  "imageUrl": "images/fitfriends.png"
+  "imageUrl": "images/fitfriends-cropped.png"
 }

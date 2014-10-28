@@ -98,7 +98,7 @@ body {
   right: 5%;
   width: 50%;
   height: 32vmax;
-  background: url('../images/ipad_cropped.png') no-repeat;
+  background: url('../images/ipad_cropped_compressed.png') no-repeat;
   background-size: 100% 100%;
   border-radius: 20px;
 }
