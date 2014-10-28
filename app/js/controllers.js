@@ -41,5 +41,10 @@ controllers.controller('ProjectsDetailCtrl', ['$scope', '$routeParams', '$http',
 
   $http.get('json_files/' + $routeParams.projectId + '.json' ).success(function(data) {
     $scope.project = data;
+    if(window.innerWidth < 1500) {
+      $scope.mainImageUrl = data.mediumImageUrl;
+    } else {
+      $scope.mainImageUrl = data.imageUrl;
+    }
   });
 }]);

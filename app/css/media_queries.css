@@ -74,6 +74,7 @@
 
   .c-100 {
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 
   .project-details {
