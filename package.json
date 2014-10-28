@@ -14,6 +14,7 @@
     "karma-junit-reporter": "^0.2.2"
   },
   "scripts": {
+    "prestart": "npm install",
     "start": "node scripts/web-server.js",
 
     "preupdate-webdriver": "npm install",
