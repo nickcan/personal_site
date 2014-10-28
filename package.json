@@ -5,7 +5,7 @@
   "description": "Nick Cantelmi's project's site with Angular.js",
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "karma": "~0.10",
     "protractor": "^1.1.1",
     "http-server": "^0.6.1",
