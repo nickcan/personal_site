@@ -2,5 +2,6 @@
   "id": "dropify",
   "description": "The mobile-first web app that lets you experience your city through the messages left by others. This project was completed at the Salesforce Hackathon 2014 in less than 48 hours. It uses the Google Maps API to render the client's geolocation and nearby pins.",
   "link": "http://dropify.herokuapp.com/",
-  "imageUrl": "images/dropify_compressed.png"
+  "imageUrl": "images/dropify_compressed.jpg",
+  "mediumImageUrl": "images/dropify_compressed_medium.jpeg"
 }

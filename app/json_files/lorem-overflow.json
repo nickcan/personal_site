@@ -2,5 +2,6 @@
   "id": "lorem-overflow",
   "description": "This is a Stack Overflow clone built with Rails. It uses a polymorphic association for votes in the database, allowing user's to vote on questions and comments. Relying heavily on ERB templates, the app embeds links dynamically for full-circle connection.",
   "link": "http://loremoverflow.herokuapp.com/",
-  "imageUrl": "images/lorem_overflow_compressed.png"
+  "imageUrl": "images/lorem_overflow_compressed.jpg",
+  "mediumImageUrl": "images/lorem_overflow_compressed_medium.jpeg"
 }
