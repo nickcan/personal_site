@@ -2,5 +2,5 @@
   "id": "sudokurazy",
   "description": "SudokuRazy is a light-weight Sinatra application for playing the game Sudoku. It uses an API to provide randomly chosen games via AJAX. It is one page and completely dynamic, relying purely on object-oriented javascript following a module-pattern.",
   "link": "http://shielded-harbor-9129.herokuapp.com/",
-  "imageUrl": "images/sudokurazy.png"
+  "imageUrl": "images/SudokuRazy-cropped.png"
 }
