@@ -1,5 +1,3 @@
-$(function() {
-  setTimeout(function() {
-    $('body').css('visibility', 'visible');
-  }, 1500);
+$(window).load(function() {
+  $('body').css('visibility', 'visible');
 })
