@@ -1,7 +1,6 @@
-.jumbotron {
+/*.jumbotron {
   background: url("../images/autumn-leaves-large.jpg") center center no-repeat;
-  background-size: 1440px 100%;
-}
+}*/
 
 @media screen and (max-width: 1200px) {
   .projects-list {
@@ -56,10 +55,9 @@
     margin-top: 10%;
   }
 
-  .jumbotron {
+  /*.jumbotron {
     background: url("../images/autumn-leaves-medium.jpeg") center center no-repeat;
-    background-size: 1025px 100%;
-  }
+  }*/
 }
 
 @media screen and (max-width: 850px) {
@@ -117,8 +115,7 @@
     height: 38vmax;
   }
 
-  .jumbotron {
+  /*.jumbotron {
     background: url("../images/autumn-leaves-850.jpeg") center center no-repeat;
-    background-size: 850px 100%;
-  }
+  }*/
 }
